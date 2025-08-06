@@ -7,11 +7,11 @@ export default function Home() {
         {/* Hero */}
         <section className="py-16 text-center">
           <h1 className="text-4xl font-bold mb-4">
-            Premium Coconut Charcoal Briquettes
-          </h1>
-          <p className="text-lg text-gray-700">
-            Export-ready shisha and BBQ charcoal from 100% coconut shells. Produced in Indonesia, shipped worldwide.
-          </p>
+  Coconut Charcoal for the World’s Finest Hookah & Grilling Experiences
+</h1>
+<p className="text-lg text-gray-700">
+  100% Coconut Shell Briquettes — Made in Indonesia, Trusted by Buyers Worldwide.
+</p>
         </section>
 
         {/* Highlights */}
