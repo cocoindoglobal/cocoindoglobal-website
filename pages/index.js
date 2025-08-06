@@ -1,7 +1,8 @@
+import Layout from '../components/Layout';
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-gray-800 p-8">
-      {/* Hero Section */}
+    <Layout>
       <section className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">
           Welcome to Coco Indo Global
@@ -17,7 +18,6 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Products Section */}
       <section className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-semibold mb-4">Our Main Product</h2>
         <ul className="list-disc list-inside space-y-2">
@@ -30,11 +30,6 @@ export default function Home() {
           <li>Capacity: 50 tons/month</li>
         </ul>
       </section>
-
-      {/* Footer */}
-      <footer className="mt-16 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Coco Indo Global
-      </footer>
-    </div>
+    </Layout>
   );
 }
