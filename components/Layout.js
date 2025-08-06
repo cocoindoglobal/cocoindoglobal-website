@@ -9,6 +9,7 @@ export default function Layout({ children }) {
           <Link href="/" className="hover:text-green-600">Home</Link>
           <Link href="/products" className="hover:text-green-600">Products</Link>
     <Link href="/about" className="hover:text-green-600">About</Link>
+    <Link href="/why-us" className="hover:text-green-600">Why Us</Link>
           <Link href="/contact" className="hover:text-green-600">Contact</Link>
         </div>
       </nav>
