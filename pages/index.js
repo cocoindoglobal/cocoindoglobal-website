@@ -3,33 +3,54 @@ import Layout from '../components/Layout';
 export default function Home() {
   return (
     <Layout>
-      <section className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">
-          Welcome to Coco Indo Global
-        </h1>
-        <p className="text-lg mb-6">
-          Your trusted supplier for premium coconut charcoal briquettes.
-        </p>
-        <a
-          href="https://wa.me/6281227756413"
-          className="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full"
-        >
-          Contact Us via WhatsApp
-        </a>
-      </section>
+      <div className="max-w-5xl mx-auto px-4">
+        {/* Hero */}
+        <section className="py-16 text-center">
+          <h1 className="text-4xl font-bold mb-4">
+            Premium Coconut Charcoal Briquettes
+          </h1>
+          <p className="text-lg text-gray-700">
+            Export-ready shisha and BBQ charcoal from 100% coconut shells. Produced in Indonesia, shipped worldwide.
+          </p>
+        </section>
 
-      <section className="max-w-3xl mx-auto">
-        <h2 className="text-2xl font-semibold mb-4">Our Main Product</h2>
-        <ul className="list-disc list-inside space-y-2">
-          <li>Type: Hexagonal Coconut Charcoal Briquette</li>
-          <li>Moisture: &lt; 8%</li>
-          <li>Ash Content: &lt; 3%</li>
-          <li>Fixed Carbon: &gt; 75%</li>
-          <li>Packaging: PP bag 20kg</li>
-          <li>MOQ: 1x20ft Container</li>
-          <li>Capacity: 50 tons/month</li>
-        </ul>
-      </section>
-    </Layout>
-  );
-}
+        {/* Highlights */}
+        <section className="grid md:grid-cols-3 gap-8 py-12 text-center">
+          <div>
+            <h3 className="font-semibold text-xl mb-2">100% Coconut Shell</h3>
+            <p>Pure raw material with no fillers or wood additives.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-xl mb-2">Long Burn Time</h3>
+            <p>Up to 2 hours — perfect heat for shisha or BBQ.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-xl mb-2">Export Ready</h3>
+            <p>SVLK, COA, and shipping from Jakarta or Surabaya.</p>
+          </div>
+        </section>
+
+        {/* Product Overview */}
+        <section className="py-12">
+          <h2 className="text-2xl font-bold text-center mb-6">Our Products</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="border rounded-xl p-6 shadow-md">
+              <h3 className="text-lg font-semibold mb-2">Shisha Briquettes</h3>
+              <ul className="list-disc list-inside text-gray-700">
+                <li>Ash &lt; 2.5%</li>
+                <li>No odor, no spark, no cracks</li>
+                <li>Strong heat, hexagon & cube shapes</li>
+              </ul>
+            </div>
+            <div className="border rounded-xl p-6 shadow-md">
+              <h3 className="text-lg font-semibold mb-2">BBQ Briquettes</h3>
+              <ul className="list-disc list-inside text-gray-700">
+                <li>Ash &lt; 3%</li>
+                <li>Good for grill, food-safe</li>
+                <li>Custom sizes and bulk packaging</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Ac*
