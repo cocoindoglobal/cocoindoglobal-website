@@ -8,6 +8,7 @@ export default function Layout({ children }) {
         <div className="max-w-6xl mx-auto flex gap-6 text-sm font-medium">
           <Link href="/" className="hover:text-green-600">Home</Link>
           <Link href="/products" className="hover:text-green-600">Products</Link>
+    <Link href="/about" className="hover:text-green-600">About</Link>
           <Link href="/contact" className="hover:text-green-600">Contact</Link>
         </div>
       </nav>
