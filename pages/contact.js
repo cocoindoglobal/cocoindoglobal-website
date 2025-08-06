@@ -1,6 +1,8 @@
+import Layout from '../components/Layout';
+
 export default function Contact() {
   return (
-    <div className="min-h-screen p-8 bg-white text-gray-800">
+    <Layout>
       <h1 className="text-3xl font-bold mb-4">Get in Touch</h1>
       <p className="mb-4">Feel free to contact us through WhatsApp or email:</p>
       <a
@@ -10,6 +12,6 @@ export default function Contact() {
         WhatsApp Us
       </a>
       <p className="mt-4">Email: support@cocoindoglobal.com</p>
-    </div>
+    </Layout>
   );
 }
