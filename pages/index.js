@@ -53,4 +53,4 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Call to Ac*
+        {/* Call to Action */}
